@@ -12,8 +12,8 @@ class Arms extends Component {
         return (
           <div>
               <h2>Arm Reps: {this.state.reps}</h2>
-              <button onClick={()=> this.setState({reps: this.state.reps +1})}>Reps</button>
-              <button onClick={()=> this.setState({reps: 0})}>Reset</button>
+              <button class="submit" onClick={()=> this.setState({reps: this.state.reps +1})}>Reps</button><br></br>
+              <button class="submit" onClick={()=> this.setState({reps: 0})}>Reset</button>
           </div>
         );
       }
